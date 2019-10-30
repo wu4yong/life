@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>添加用户页面</title>
+</head>
+<body>
+<form th:action="@{/users/addUser}" method="post">
+    <table  border="1" align="center"  width="50%" >
+        <tr>
+            <td>用户姓名：</td>
+            <td><input type="text" name="userName" /></td>
+        </tr>
+        <tr>
+            <td>用户年龄：</td>
+            <td><input type="text"  name="age" /></td>
+        </tr>
+        <tr>
+            <td colspan=2>
+                <input type="reset" />
+                <input type="submit" />
+            </td>
+        </tr>
+    </table>
+</form> 
+</body>
+</html>

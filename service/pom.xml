@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <!--父工程-->
+    <parent>
+        <artifactId>life</artifactId>
+        <groupId>com.qili</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <!--子模块名称-->
+    <artifactId>service</artifactId>
+    <packaging>jar</packaging>
+
+    <!--子模块依赖模块-->
+    <dependencies>
+        <dependency>
+            <groupId>com.qili</groupId>
+            <artifactId>repository</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>
