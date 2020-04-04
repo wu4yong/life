@@ -88,5 +88,6 @@ public class UserJpaController {
     @GetMapping("/testAddBranch")
     public void testAddBranch(){
         System.out.println("我是测试新增的分支方法修改前！");
+        System.out.println("我是测试master合并的代码！");
     }
 }
