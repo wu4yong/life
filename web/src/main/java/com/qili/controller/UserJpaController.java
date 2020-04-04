@@ -85,5 +85,8 @@ public class UserJpaController {
         return "redirect:/users/queryAllUser";
     }
 
-
+    @GetMapping("/testAddBranch")
+    public void testAddBranch(){
+        System.out.println("我是测试新增的分支方法！@~@");
+    }
 }
